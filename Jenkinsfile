@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        lambdaRole      = "GetStartedLambdaBasicExecutionRole2"
+        lambdaRole      = "GetStartedLambdaBasicExecutionRole3"
         lambdaName      = "GetStartedLambdaProxyIntegration"
         lambdaFileName  = "*.mjs"
         lambdaRuntime   = "nodejs18.x"
