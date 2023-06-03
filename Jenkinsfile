@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     environment {
-        lambdaRole      = "GetStartedLambdaBasicExecutionRole3"
+        lambdaRole      = "GetStartedLambdaBasicExecutionRole4"
         lambdaName      = "GetStartedLambdaProxyIntegration"
         lambdaFileName  = "*.mjs"
         lambdaRuntime   = "nodejs18.x"
         accountID       = "045122909431"
-        dynamoTable     = "HelloWorldTable"
+        dynamoTable     = "HelloWorldTable1"
         AWS_Creds       = "aws_jr_chen"
     }
 
